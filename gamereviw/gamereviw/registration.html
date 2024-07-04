@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game review Reviews / Registration</title>
+    <link rel="icon" href="Logo images/logo.png">
+    <link rel="stylesheet" href="CSS/registration.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+</head>
+<body>
+    <div id="wrapper">
+        <a href="index.html">
+            <img src="Logo images/logo.png" alt="game review Reviews Logo">
+        </a>
+        <h1>
+            <b>
+                Register
+            </b>
+        </h1>
+        <form action="your_form_processing_url" method="post">
+            <div class="ns">
+                <input type="text" name="nickname" placeholder="Nickname" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="ns">
+                <div id="pass-div-1">
+                    <input type="password" name="password" placeholder="Enter Password" required id="password">
+                    <h2 id="h2-password">
+                        
+                    </h2>
+                </div>
+                <div id="pass-div-2">
+                    <input type="password" name="confirm_password" placeholder="Repeat Password" required id="confirm-password">
+                    <h2 id="confirm-h2">
+                        Password <span id="bool"></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="ns">
+                <input type="date" id="date" name="birthdate" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="ns">
+                <input type="text" name="country" placeholder="Country" required>
+                <input type="text" name="city" placeholder="City" required>
+            </div>
+            <button id="submitBtn" type="submit" onclick="ConfirmPassword()">Register</button>
+        </form>
+    </div>
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>

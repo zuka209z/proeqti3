@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews</title>
+    <link rel="icon" href="Icons/playstation-gaming-logo.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="language_Profile_List" id="ListIcon" src="Icons/ListIcon.png" alt="List Icon">
+
+        <div id="L-D-Frame">
+            <a id="main_logo_a" href="">
+                <link rel="icon" href="">
+                <img id="main_logo" src="Icons/playstation-gaming-logo.png" alt="logo">
+            </a>
+            <div id="line"></div>
+        </div>
+
+        <div id="items">
+
+            <div class="item" id="games">
+                <h4>
+                    <b>
+                        <a href="games.html" id="b">
+                            Games
+                        </a>
+                    </b>
+                </h4>
+            </div>
+
+            <div class="item">
+                <h4>
+                    <b>
+                        <a href="news.html" id="c">
+                            News
+
+                        </a>
+                    </b>
+                </h4>
+            </div>
+
+
+            <div class="item">
+                <h4>
+                    <b>
+                        <a href="" id="f">
+                            Reviews
+                        </a>
+                    </b>
+                </h4>
+            </div>
+
+            <div class="item">
+                <h4>
+                    <b>
+                        <a href="mailto:aladusekababusek@gmail.com">Contact Us</a>
+                            
+                        </a>
+                    </b>
+                </h4>
+            </div>
+        </div>
+
+        <div id="search">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div id="L-P-Frame">
+            <div id="SearchIcon_mobile_frame">
+
+                <img id="SearchIcon_mobile" src="Icons/SearchIcon.png" alt="Search Icon">
+                <input id="searchMobile" type="text" placeholder="Search">
+            </div>
+
+            <img class="language_Profile_List" id="LanguageIcon" src="Icons/LanguageIcon.png" alt="Language Icon">
+
+            <img class="language_Profile_List" id="ProfileIcon" src="Icons/ProfileIcon.png" alt="Profile Icon">
+
+
+        </div>
+    </header>
+    <div id="divsThatDoesNotShowUntilClick">
+        
+        <div id="menu">
+            <div class="menu_div">
+                <b>
+                    <a href="games.html" id="a">
+                        Games
+                    </a>
+                </b>
+            </div>
+            <div class="menu_div">
+                <b>
+                    <a href="news.html" id="d">
+                        News
+                    </a>
+                </b>
+            </div>
+            <div class="menu_div">
+                <b>
+                    <a href="" id="e">
+                        Reviews
+                    </a>
+                </b>
+            </div>
+            <div class="menu_div">
+                <b>
+                    <a href="ContactUs.html" id="g">
+                        Contact Us
+                    </a>
+                </b>
+            </div>
+            <div class="autorisation-div">
+                <div class="mob-reg-divs">
+                    <a href="registration.html">
+                        <b id="l">
+                            Register
+                        </b>
+                    </a>
+                </div>
+                <div class="mob-reg-divs">
+                    <a href="Log-in.html">
+                        <b id="m">
+                            Log In
+                        </b>
+                    </a>
+                </div>
+            </div>
+            <div class="ChangeLanguage-mobile">
+                <div id="GE" onclick="ChangeLanguageToGeorgian()">
+                    <a>
+                        <b>
+                            Georgian
+                        </b>
+                    </a>
+                </div>
+                <div id="EN" onclick="ChangeLanguageToEnglish()">
+                    <a>
+                        <b>
+                            English
+                        </b>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="profile">
+            <a href="registration.html" id="reg-link">
+                <div id="Registration">
+                    <b id="j">
+                        Register
+                    </b>
+                </div>
+            </a>
+            <a href="Log-in.html" id="log-link">
+                <div id="Log-in">
+                    <b id="k">
+                        Log in
+                    </b>
+                </div>
+            </a>
+        </div>
+        <div id="ChangeLanguage">
+            <div id="Georgian" onclick="ChangeLanguageToGeorgian()">
+                <b>
+                    Georgian
+                </b>
+            </div>
+            <div id="English" onclick="ChangeLanguageToEnglish()">
+                <b>
+                    English
+                </b>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="./pics/playstation-store.webp" alt="">
+                </div>
+                <div class="item">
+                    <img src="./pics/pic1.webp" alt="">
+                </div>
+                <div class="item">
+                    <img src="./pics/pic2.webp" alt="">
+                </div>
+                <div class="item">
+                    <img src="./pics/pic3.webp">
+                </div>
+                <div class=" item">
+                    <img src="./pics/pic4.webp" alt="">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="prev"></button>
+                <button id="next"></button>
+            </div>
+
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+
+
+
+    </main>
+    <footer class="chupo">
+        <div id="logo">
+            <img src="./Icons/playstation-gaming-logo.png" alt="">
+        </div>
+        <div id="footer-wrapper">
+            <div class="footer-div">
+                <div id="links">
+                    <a href="https://www.facebook.com/zuka.nozadze.9699?locale=ka_GE">
+                        <img class="footer-imgs" src="Icons/104498_facebook_icon.png" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/_nnoza_/">
+                        <img class="footer-imgs" src="Icons/1161953_instagram_icon.png" alt="instagram">
+                    </a>
+                    <a href="">
+                        <img class="footer-imgs" src="Icons/104501_twitter_bird_icon.png" alt="twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h2 style="color: rgb(22, 13, 13);">
+            © 2024 Game Reviews  <a href="privacy.html">privacypolicy</a>
+        </h2>
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+
+</html>

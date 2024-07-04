@@ -1,0 +1,221 @@
+body {
+  background-color: rgb(22, 22, 22);
+}
+body #main-logo-div {
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  align-items: center;
+  background-color: rgb(191, 33, 33);
+
+}
+body #main-logo-div #main-logo {
+  height: 100px;
+  width: 100px;
+}
+body main #Top-Rated-PC-Games header {
+  width: 90%;
+  margin: auto;
+}
+body main #Top-Rated-PC-Games header h1 {
+  color: white;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+}
+body main #Top-Rated-PC-Games header #line {
+  width: 100%;
+  height: 8px;
+  background-color: rgb(48, 48, 52);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC {
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(36, 36, 36);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 250px;
+  flex: 0 1 calc(18% - 50px);
+  height: 450px;
+  margin: 20px;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC img {
+  width: 90%;
+  margin: 10px;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC h3 {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 10px;
+  margin-bottom: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC .view-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  background-color: rgb(48, 48, 52);
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 8px;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC .view-more b {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC .view-more:hover {
+  background-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+body main #Top-Rated-PC-Games #Top-Rated-PC .view-more:hover b {
+  color: black;
+}
+
+
+@media (max-width: 580px) {
+  body main #Top-Rated-PC-Games header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  body main #Top-Rated-PC-Games #Top-Rated-PC .item {
+    flex: 0 1 calc(100% - 50px);
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 30px;
+  }
+  body main #Top-Rated-PC-Games #Top-Rated-PC img {
+    width: 300px;
+  }
+}
+@media (min-width: 580px) and (max-width: 1024px) {
+  body main #Top-Rated-PC-Games header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  body main #Top-Rated-PC-Games #Top-Rated-PC .item {
+    flex: 0 1 calc(40% - 50px);
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 30px;
+  }
+  body main #Top-Rated-PC-Games #Top-Rated-PC img {
+    width: 100%;
+    margin: 5px;
+  }
+}
+body main .best-of-2024 .slider-scrollbar .scrollbar-track {
+  background: #b60b0b;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  position: relative;
+}
+body main .best-of-2024 .slider-scrollbar:hover .scrollbar-track {
+  height: 4px;
+}
+body main .best-of-2024 .slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  background: #000;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  cursor: grab;
+  border-radius: inherit;
+}
+body main .best-of-2024 .slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+}
+body main .best-of-2024 .slider-scrollbar .scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
+body footer {
+  height: 300px;
+  width: 100%;
+}
+body footer #logo {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(191, 33, 33);
+
+}
+body footer #logo img {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(191, 33, 33);
+
+}
+body footer #footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(191, 33, 33);
+
+}
+body footer #footer-wrapper .footer-div {
+  width: 30%;
+  background-color: rgb(191, 33, 33);
+
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+body footer #footer-wrapper .footer-div #links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  background-color: rgb(191, 33, 33);
+
+}
+body footer #footer-wrapper .footer-div #links a {
+  width: 50px;
+}
+body footer #footer-wrapper .footer-div #links a .footer-imgs {
+  height: 50px;
+}
+body footer h2 {
+  color: rgb(7, 7, 7);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(191, 33, 33);
+  position: absolute;
+  top: 4350px;
+  margin-left: 890px;
+}
